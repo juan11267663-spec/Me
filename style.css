@@ -1,18 +1,14 @@
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #e6f0ff;
-    color: #002147;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-    flex-direction: column;
-    text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://i.imgur.com/kbP0qQ6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
 }
 
 .container {
