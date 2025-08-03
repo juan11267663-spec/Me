@@ -1,15 +1,20 @@
 
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url('https://i.imgur.com/kbP0qQ6.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e6f0ff;
+    color: #002147;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
 }
+
 
 .container {
     display: flex;
@@ -83,12 +88,4 @@ button:hover {
   color: #2196f3; /* Blue 💙 */
   pointer-events: none;
 }
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.3); /* soft white overlay */
-  z-index: -1;
-}
+
